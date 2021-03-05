@@ -1,0 +1,37 @@
+Scoreboards:
+
+scoreboard objectives add use_white_bed minecraft.used:white_bed
+scoreboard objectives add use_orange_bed minecraft.used:orange_bed
+scoreboard objectives add use_magenta_bed minecraft.used:magenta_bed
+scoreboard objectives add use_lblue_bed minecraft.used:light_blue_bed
+scoreboard objectives add use_yellow_bed minecraft.used:yellow_bed
+scoreboard objectives add use_lime_bed minecraft.used:lime_bed
+scoreboard objectives add use_pink_bed minecraft.used:pink_bed
+scoreboard objectives add use_gray_bed minecraft.used:gray_bed
+scoreboard objectives add use_lgray_bed minecraft.used:light_gray_bed
+scoreboard objectives add use_cyan_bed minecraft.used:cyan_bed
+scoreboard objectives add use_purple_bed minecraft.used:purple_bed
+scoreboard objectives add use_blue_bed minecraft.used:blue_bed
+scoreboard objectives add use_brown_bed minecraft.used:brown_bed
+scoreboard objectives add use_green_bed minecraft.used:green_bed
+scoreboard objectives add use_red_bed minecraft.used:red_bed
+scoreboard objectives add use_black_bed minecraft.used:black_bed
+
+scoreboard objectives add use_bed_total dummy
+
+execute as @a run scoreboard players operation @s use_bed_total += @s use_black_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_blue_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_brown_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_cyan_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_gray_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_green_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_lblue_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_lgray_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_lime_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_magenta_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_orange_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_pink_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_purple_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_red_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_white_bed
+execute as @a run scoreboard players operation @s use_bed_total += @s use_yellow_bed
