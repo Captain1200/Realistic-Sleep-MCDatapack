@@ -7,4 +7,4 @@ effect give @s mining_fatigue 300 1
 effect give @s weakness 300 3
 
 #Message:
-tellraw @a {"text":"You feel incredibly tired, you should really get some rest","color":"blue"}
+tellraw @a {"text":"You feel incredibly tired, you should really get some rest.","color":"blue"}

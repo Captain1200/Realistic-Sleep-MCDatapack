@@ -1,5 +1,5 @@
 #Schedule:
-schedule function realistic_sleep:loop_60 25s
+schedule function realistic_sleep:loop_60 240s
 schedule function realistic_sleep:effects_lvld 20s
 
 #Effects: 

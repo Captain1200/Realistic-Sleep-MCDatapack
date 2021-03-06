@@ -9,7 +9,7 @@ effect give @s nausea 20
 effect give @s weakness 20 5
 
 #Message:
-tellraw @a {"text":"must... sleep...","color":"dark_blue"}
+tellraw @a {"text":"must... sleep... (Due to your lack of sleep, you begin to feel incredibly sick)","color":"dark_blue"}
 
 #Tag:
 tag @s add close_to_sleep
